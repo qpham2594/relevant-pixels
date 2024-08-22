@@ -5,32 +5,32 @@ export default function Creative() {
   const [index, setIndex] = useState(0);
   const frames = [
     {
-      title: "American Red Cross",
+      title: "American Heart Association Brandmark",
       imgSrc:
         "https://images-na.ssl-images-amazon.com/images/I/81eJpEEQwYL._AC_SL1500_.jpg",
       description:
-        "If I could re-create the American Red Cross logo, this is what it would look like. ",
+        "If I could re-create the American Heart Association logo, this is what it would look like. I want the logo to include symbols of 'heart disease', 'care and empathy', while keeping the iconic flame symbol."
     },
     {
-      title: "Plant Search",
+      title: "Portiko Logo Identity",
       imgSrc:
         "https://image.freepik.com/free-vector/cute-lion-cartoon_160606-353.jpg",
       description:
-        "Planty uses plant API to give information on plants based on name, and allows users to learn more about the plants around them in nature. This app uses Next.js, React, Vercel, and Perenual API.",
+        "This hypothetical tech company focuses on designing and developing technological products, and the idea of the logo is to be timeless yet also modern. The logo focuses on minimalism with the reflection of the circuit board with contrast colors to stand out in colors and black and white for higher readability.",
     },
     {
-      title: "Wedding Planner",
+      title: "ADDitude Magazine Re-Design",
       imgSrc:
         "https://i.pinimg.com/originals/07/1d/d0/071dd09d7b36e49139fe2cf08ff728a8.jpg",
       description:
-        "With wedding planning in works, I created my own wedding planner so I can make my own account, write down all my plans, and everything I need during the process. This app uses Next.js, React, Vercel, MongoDB, and WeatherAPI.",
+        "The current website can be a little cluttered and busy for the eyes. With this re-design, the wireframe is more minimal. The call for action is bright and visible, and the content has more space to breathe so the audience can have an easier time digesting the content.",
     },
     {
-      title: "Ikigai",
+      title: "Event Page",
       imgSrc:
         "https://image.freepik.com/free-vector/cartoon-owl-tree-branch_194935-43.jpg",
       description:
-        "This app is created for the neurodivergent and neurotypicals who need a quick and simple way of handling to-do lists, with a completed puzzle presented as a reward. This app uses Next.js, React, Vercel, MongoDB, Spoonacular API.",
+        "This is a hypothetical museum event page about ADHD women as the diagnosis rate has increased tremendously over the recent years. For this wireframe, I want it to have sufficient negative space with bold colors to grab attention.",
     },
   ];
 
