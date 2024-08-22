@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 223,244,226;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: no-preference) {
+  :root {
+    --foreground-rgb: 223,244,226;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.wave-divider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-divider svg {
+  position: relative;
+  display: block;
+  height: 80px;
+}
+
+@media (min-width: 768px) {
+  .wave-divider svg {
+    height: 150px;
+  }
+}
+
+.platform {
+  position: relative;
+  transition: right 0.3s;
+}
+
+.body {
+  background-color: white;
+}
+
+
