@@ -7,28 +7,28 @@ export default function Creative() {
     {
       title: "American Heart Association Brandmark",
       imgSrc:
-        "https://images-na.ssl-images-amazon.com/images/I/81eJpEEQwYL._AC_SL1500_.jpg",
+        "/heart.png",
       description:
         "If I could re-create the American Heart Association logo, this is what it would look like. I want the logo to include symbols of 'heart disease', 'care and empathy', while keeping the iconic flame symbol."
     },
     {
       title: "Portiko Logo Identity",
       imgSrc:
-        "https://image.freepik.com/free-vector/cute-lion-cartoon_160606-353.jpg",
+        "/portiko.png",
       description:
         "This hypothetical tech company focuses on designing and developing technological products, and the idea of the logo is to be timeless yet also modern. The logo focuses on minimalism with the reflection of the circuit board with contrast colors to stand out in colors and black and white for higher readability.",
     },
     {
       title: "ADDitude Magazine Re-Design",
       imgSrc:
-        "https://i.pinimg.com/originals/07/1d/d0/071dd09d7b36e49139fe2cf08ff728a8.jpg",
+        "/adhd.png",
       description:
         "The current website can be a little cluttered and busy for the eyes. With this re-design, the wireframe is more minimal. The call for action is bright and visible, and the content has more space to breathe so the audience can have an easier time digesting the content.",
     },
     {
       title: "Event Page",
       imgSrc:
-        "https://image.freepik.com/free-vector/cartoon-owl-tree-branch_194935-43.jpg",
+        "/event.png",
       description:
         "This is a hypothetical museum event page about ADHD women as the diagnosis rate has increased tremendously over the recent years. For this wireframe, I want it to have sufficient negative space with bold colors to grab attention.",
     },
@@ -70,10 +70,6 @@ export default function Creative() {
 
   return (
     <div>
-      <div className="text-lg font-bold m-5 text-center">
-        Use Keyboard Arrow Keys To Go Left And Right
-      </div>
-
       <div className="gallery border-2 rounded mx-auto m-5 bg-white w-full max-w-[90%] md:max-w-[75%] lg:max-w-[650px]">
         <div className="top flex p-2 border-b select-none">
           <div className="heading text-gray-800 w-full pl-3 font-semibold my-auto">
@@ -133,18 +129,6 @@ export default function Creative() {
                     </div>
                     <div className="description flex flex-wrap text-sm md:text-lg">
                       {frame.description}
-                    </div>
-                    <div
-                      className="goto border border-gray-400 text-xs md:text-sm font-semibold inline-block mt-2 p-1 px-2 rounded cursor-pointer"
-                      onClick={() => goTo(2)}
-                    >
-                      Goto Third Frame
-                    </div>
-                    <div
-                      className="goto border border-gray-400 text-xs md:text-sm font-semibold inline-block mt-2 p-1 px-2 ml-4 rounded cursor-pointer"
-                      onClick={() => goTo("end")}
-                    >
-                      Goto Last Frame
                     </div>
                   </div>
                 </div>

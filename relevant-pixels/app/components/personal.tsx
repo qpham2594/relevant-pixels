@@ -5,30 +5,30 @@ export default function Personal() {
   const [index, setIndex] = useState(0);
   const frames = [
     {
-      title: "Book Club",
+      title: "Wedding Website",
       imgSrc:
-        "https://images-na.ssl-images-amazon.com/images/I/81eJpEEQwYL._AC_SL1500_.jpg",
+        "/kq.png",
       description:
-        "The application allows users to log their books and review them without making it public to others like Goodreads. The resources used are Next.js, React, Vercel, MongoDB, and Google API.",
+        "This is our wedding website that I have created for us featuring important information for wedding guests, an option to RSVP, and a countdown to the wedding date. This static website uses React, Vercel, and Tailwind.",
     },
     {
       title: "Plant Search",
       imgSrc:
-        "https://image.freepik.com/free-vector/cute-lion-cartoon_160606-353.jpg",
+        "/planty.png",
       description:
         "Planty uses plant API to give information on plants based on name, and allows users to learn more about the plants around them in nature. This app uses Next.js, React, Vercel, and Perenual API.",
     },
     {
       title: "Wedding Planner",
       imgSrc:
-        "https://i.pinimg.com/originals/07/1d/d0/071dd09d7b36e49139fe2cf08ff728a8.jpg",
+        "/wedding.png",
       description:
         "With wedding planning in works, I created my own wedding planner so I can make my own account, write down all my plans, and everything I need during the process. This app uses Next.js, React, Vercel, MongoDB, and WeatherAPI.",
     },
     {
       title: "Ikigai",
       imgSrc:
-        "https://image.freepik.com/free-vector/cartoon-owl-tree-branch_194935-43.jpg",
+        "/ikigai.png",
       description:
         "This app is created for the neurodivergent and neurotypicals who need a quick and simple way of handling to-do lists, with a completed puzzle presented as a reward. This app uses Next.js, React, Vercel, MongoDB, Spoonacular API.",
     },
@@ -70,10 +70,6 @@ export default function Personal() {
 
   return (
     <div>
-      <div className="text-lg font-bold m-5 text-center">
-        Use Keyboard Arrow Keys To Go Left And Right
-      </div>
-
       <div className="gallery border-2 rounded mx-auto m-5 bg-white w-full max-w-[90%] md:max-w-[75%] lg:max-w-[650px]">
         <div className="top flex p-2 border-b select-none">
           <div className="heading text-gray-800 w-full pl-3 font-semibold my-auto">
@@ -133,18 +129,6 @@ export default function Personal() {
                     </div>
                     <div className="description flex flex-wrap text-sm md:text-lg">
                       {frame.description}
-                    </div>
-                    <div
-                      className="goto border border-gray-400 text-xs md:text-sm font-semibold inline-block mt-2 p-1 px-2 rounded cursor-pointer"
-                      onClick={() => goTo(2)}
-                    >
-                      Goto Third Frame
-                    </div>
-                    <div
-                      className="goto border border-gray-400 text-xs md:text-sm font-semibold inline-block mt-2 p-1 px-2 ml-4 rounded cursor-pointer"
-                      onClick={() => goTo("end")}
-                    >
-                      Goto Last Frame
                     </div>
                   </div>
                 </div>

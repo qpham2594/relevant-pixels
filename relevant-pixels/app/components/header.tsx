@@ -13,10 +13,10 @@ export default function Header() {
             Thanks for stopping by!
           </h1>
         </div>
-        <div className="w-full md:w-1/2 py-4 md:py-8">
+        <div className="w-full md:w-1/2 py-6 md:py-8">
           <img
-            src="https://www.svgrepo.com/show/493509/person-who-invests.svg"
-            alt="Person who invests"
+            src="/self.png"
+            alt="Self outline with binary numbers at the bottom"
             className="g-image w-full h-auto max-w-xs md:max-w-full"
           />
         </div>

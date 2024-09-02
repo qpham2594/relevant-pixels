@@ -15,17 +15,20 @@ const menuItems: MenuItem[] = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' },
-  // Add more items as needed
 ];
 
 export default function Home(): JSX.Element {
   return (
     <div className="">
-      <SideMenu menuItems={menuItems} />
       
       <main className="flex min-h-screen flex-col items-center justify-between">
         <Header/>
-
+        <section className="w-full bg-customGreen dark:bg-customGreen py-8 sm:py-10">
+          <div className="text-center text-black dark:text-black">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">Contact</h2>
+            <p className="text-center text-black dark:text-black px-10 sm:px-12 text-lg sm:text-md"> Email: qpham2594@gmail.com </p>
+          </div>
+        </section>
         <div className="w-full">
           <section className="w-full bg-customGreen dark:bg-customGreen py-12 sm:py-20">
             <div className="w-full px-0">
@@ -38,7 +41,6 @@ export default function Home(): JSX.Element {
               </p>
             </div>
           </section>
-
           <div className="w-full wave-divider dark:bg-customGreen">
             <svg
               data-name="Layer 1"
