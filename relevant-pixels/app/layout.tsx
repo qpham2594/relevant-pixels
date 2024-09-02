@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import CustomCursor from "./components/cursor"; // Import the CustomMouse component
+import CustomCursor from "./components/cursor"; 
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <CustomCursor/> {/* Include the CustomMouse component */}
+        <CustomCursor/> 
         {children}
       </body>
     </html>

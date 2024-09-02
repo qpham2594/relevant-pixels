@@ -5,7 +5,6 @@ import Creative from "./components/creative";
 import SideMenu from "./components/side";
 import Facts from "./components/facts";
 
-// Define the menuItems type
 interface MenuItem {
   name: string;
   path: string;
