@@ -66,17 +66,7 @@ export default function Home(): JSX.Element {
             </div>
           </section>  
 
-          <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-8 sm:py-10">
-            <div className="w-full px-0">
-              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-8 dark:text-white">
-                
-              </h2>
-              <p className="text-center text-black dark:text-black">
-              </p>
-            </div>
-          </section>
-
-          <div className="w-full wave-divider dark:bg-customDarkGreen">
+          <div className="w-full wave-divider bg-customDarkGreen dark:bg-customDarkGreen">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
