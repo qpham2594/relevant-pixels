@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
 
           <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-12 sm:py-12">
             <div className="w-full px-0">
-              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-10 bg-customDarkGreen">
+              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-10 bg-customDarkGreen text-white dark:text-white">
                 Fun Facts
               </h2>
               <div className="text-center">
@@ -128,7 +128,7 @@ export default function Home(): JSX.Element {
 
           <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-12 sm:py-20">
             <div className="w-full px-0">
-              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-10 dark:text-white">
+              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-10 text-white dark:text-white">
                 Personal and Academic Projects
               </h2>
             </div>

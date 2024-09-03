@@ -7,7 +7,7 @@ export default function Creative() {
     {
       title: "American Heart Association Brandmark",
       imgSrc:
-        "/heart.png",
+        "/heart1.png",
       description:
         "If I could re-create the American Heart Association logo, this is what it would look like. I want the logo to include symbols of 'heart disease', 'care and empathy', while keeping the iconic flame symbol."
     },
@@ -31,6 +31,13 @@ export default function Creative() {
         "/event.png",
       description:
         "This is a hypothetical museum event page about ADHD women as the diagnosis rate has increased tremendously over the recent years. For this wireframe, I want it to have sufficient negative space with bold colors to grab attention.",
+    },
+    {
+      title: "Travel Agency",
+      imgSrc:
+        "/travel.gif",
+      description:
+        "This is a hypothetical traveling agency that allows you to pair up with someone else in another country to explore and live like a local. Essentially, you are doing study abroad, but without the studying.",
     },
   ];
 
@@ -121,7 +128,7 @@ export default function Creative() {
               >
                 <div className="main flex flex-wrap w-full p-4 md:p-8">
                   <div className="sub w-full sm:w-1/4 md:w-1/3 my-auto">
-                    <img className="w-full p-2 md:p-4" src={frame.imgSrc} alt={frame.title} />
+                    <img className="w-full p-2 md:p-4 mb-6" src={frame.imgSrc} alt={frame.title} />
                   </div>
                   <div className="sub w-full md:w-2/3 my-auto">
                     <div className="head text-base md:text-2xl font-bold mb-2 md:mb-4">
