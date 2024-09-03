@@ -40,7 +40,7 @@ export default function Home(): JSX.Element {
               </p>
             </div>
           </section>
-          <div className="w-full wave-divider dark:bg-customGreen">
+          <div className="w-full wave-divider bg-customGreen dark:bg-customGreen">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -55,9 +55,9 @@ export default function Home(): JSX.Element {
             </svg>
           </div>
 
-          <section className="w-full bg-white dark:bg-customDarkGreen py-12 sm:py-12">
+          <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-12 sm:py-12">
             <div className="w-full px-0">
-              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-10 dark:text-white">
+              <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-10 bg-customDarkGreen">
                 Fun Facts
               </h2>
               <div className="text-center">
@@ -66,7 +66,7 @@ export default function Home(): JSX.Element {
             </div>
           </section>  
 
-          <section className="w-full bg-customGreen dark:bg-customDarkGreen py-8 sm:py-10">
+          <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-8 sm:py-10">
             <div className="w-full px-0">
               <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-8 dark:text-white">
                 
@@ -86,12 +86,12 @@ export default function Home(): JSX.Element {
             >
               <path
                 d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                className="fill-blue-100 dark:fill-customGreen"
+                className="fill-blue-100 bg-customGreen dark:fill-customGreen"
               ></path>
             </svg>
           </div>
 
-          <section className="w-full bg-white dark:bg-customGreen py-12 sm:py-20">
+          <section className="w-full bg-customGreen dark:bg-customGreen py-12 sm:py-20">
             <div className="w-full px-0">
               <h2 className="text-5xl sm:text-4xl font-bold text-center mb-4 sm:mb-8 dark:text-black">
                 Why hire new grads or junior developers? 
@@ -111,7 +111,7 @@ export default function Home(): JSX.Element {
             </div>
           </section>
 
-          <div className="w-full wave-divider dark:bg-customGreen">
+          <div className="w-full wave-divider bg-customGreen dark:bg-customGreen">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -121,12 +121,12 @@ export default function Home(): JSX.Element {
             >
               <path
                 d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                className="fill-blue-100 dark:fill-customDarkGreen"
+                className="fill-blue-100 bg-customDarkGreen dark:fill-customDarkGreen"
               ></path>
             </svg>
           </div>
 
-          <section className="w-full bg-white dark:bg-customDarkGreen py-12 sm:py-20">
+          <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-12 sm:py-20">
             <div className="w-full px-0">
               <h2 className="text-5xl sm:text-4xl font-bold text-center mb-4 sm:mb-8 dark:text-white">
                 Personal and Academic Projects
@@ -134,7 +134,7 @@ export default function Home(): JSX.Element {
             </div>
           </section> 
 
-          <section className="w-full bg-customGreen dark:bg-customDarkGreen py-10 sm:py-6">
+          <section className="w-full bg-customDarkGreen dark:bg-customDarkGreen py-10 sm:py-6">
             <div className="w-full px-0">
               <p className="text-center text-black dark:text-black">
               </p>
@@ -142,7 +142,7 @@ export default function Home(): JSX.Element {
             </div>
           </section>
 
-          <div className="w-full wave-divider dark:bg-customDarkGreen">
+          <div className="w-full wave-divider bg-customDarkGreen dark:bg-customDarkGreen">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@ export default function Home(): JSX.Element {
             </svg>
           </div>
 
-          <section className="w-full bg-white dark:bg-customGreen py-12 sm:py-20">
+          <section className="w-full bg-customGreen dark:bg-customGreen py-12 sm:py-20">
             <div className="w-full px-0">
               <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-8 dark:text-black">
                 Creative Projects

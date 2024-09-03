@@ -13,7 +13,7 @@ export default function Header() {
             Thanks for stopping by!
           </h1>
         </div>
-        <div className="w-full md:w-1/2 py-6 md:py-8">
+        <div className="w-full md:w-1/2 py-6 md:py-8 flex justify-center md:justify-start">
           <img
             src="/self.png"
             alt="Self outline with binary numbers at the bottom"
