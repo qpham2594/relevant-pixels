@@ -3,9 +3,25 @@ import React, { useEffect, useState } from "react";
 
 const CustomCursor: React.FC = () => {
   const [positions, setPositions] = useState<{ x: number; y: number }[]>([]);
+  const [isMobile, setIsMobile] = useState(false);
   const trailCount = 8; // Number of circles in the trail
 
   useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize(); // Set initial state
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isMobile) return;
+
     const moveCursor = (e: MouseEvent) => {
       const newPosition = { x: e.clientX, y: e.clientY };
 
@@ -27,7 +43,12 @@ const CustomCursor: React.FC = () => {
       window.removeEventListener("mousemove", moveCursor);
       window.removeEventListener("mouseleave", handleMouseLeave);
     };
-  }, []);
+  }, [isMobile, trailCount]);
+
+  // Do not render the custom cursor on mobile
+  if (isMobile) {
+    return null;
+  }
 
   return (
     <>
@@ -40,14 +61,13 @@ const CustomCursor: React.FC = () => {
             opacity: 1 - index * (1 / trailCount),
             transition: `opacity 0.3s ease, transform 0.5s ease`,
             transform: `scale(${1 - index * (1 / trailCount)})`,
-            position: "fixed", // Changed to fixed to cover the entire viewport
+            position: "fixed",
             pointerEvents: "none",
-            width: `${(trailCount - index) * 3}px`, // Adjust size based on index
+            width: `${(trailCount - index) * 3}px`,
             height: `${(trailCount - index) * 3}px`,
             borderRadius: "50%",
             backgroundColor: "blue",
-            zIndex: 50, // Ensure it's above other elements
-            
+            zIndex: 50,
           }}
         />
       ))}
